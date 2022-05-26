@@ -58,9 +58,10 @@ body {
 
 main {
     margin: 65px auto;
-    width: 450px;
+    width: 500px;
     text-align: right;
     padding: 20px;
+    margin-right: 10px;
 }
 
 

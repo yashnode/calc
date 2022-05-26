@@ -1,2 +1,2 @@
 # calc
-A basic calculator with modern and responsive look
+A basic calculator with dark mode and modern look

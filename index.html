@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="dark-mode-toggle">
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox" class="label">
+        <i class="fas fa-moon"></i>
+        <i class='fas fa-sun'></i>
+        <div class='ball'>
+        </div>
+    </label>
+    </div>
+    <main>
+        <div class="prev-val">82/6</div>
+        <div class="curr-val">12546</div>
+        <div class="buttons">
+            <div class="row1">
+                <button id="clear" class="grey-btn">C</button>
+                <button id="plus-minus" class="grey-btn">±</button>
+                <button id="percent" class="grey-btn">%</button>
+                <button id="divide" class="blue-btn">÷</button>
+            </div>
+            <div class="row2">
+                <button id="clear" class="normal-dark">7</button>
+                <button id="plus-minus" class="normal-dark">8</button>
+                <button id="percent" class="normal-dark">9</button>
+                <button id="divide" class="blue-btn">×</button>
+            </div>
+            <div class="row3">
+                <button id="clear" class="normal-dark">4</button>
+                <button id="plus-minus" class="normal-dark">5</button>
+                <button id="percent" class="normal-dark">6</button>
+                <button id="divide" class="blue-btn">-</button>
+            </div>
+            <div class="row4">
+                <button id="clear" class="normal-dark">3</button>
+                <button id="plus-minus" class="normal-dark">2</button>
+                <button id="percent" class="normal-dark">1</button>
+                <button id="divide" class="blue-btn">+</button>
+            </div>
+            <div class="row5">
+                <button id="clear" class="normal-dark">.</button>
+                <button id="plus-minus" class="normal-dark">0</button>
+                <button id="percent" class="normal-dark">⌫</button>
+                <button id="divide" class="blue-btn">=</button>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="main.js"></script>
+
+</html>

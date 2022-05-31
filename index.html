@@ -22,42 +22,43 @@
     </label>
     </div>
     <main>
-        <div class="prev-val">82/6</div>
-        <div class="curr-val">12546</div>
+        <div class="prev-val"></div>
+        <div class="curr-val">0</div>
         <div class="buttons">
             <div class="row1">
-                <button id="clear" class="grey-btn">C</button>
-                <button id="plus-minus" class="grey-btn">±</button>
-                <button id="percent" class="grey-btn">%</button>
-                <button id="divide" class="blue-btn">÷</button>
+                <button data-function="clear" class="grey-btn">C</button>
+                <button data-function="plus-minus" class="grey-btn">±</button>
+                <button data-function="percent" class="grey-btn">%</button>
+                <button data-function="divide" class="blue-btn">÷</button>
             </div>
             <div class="row2">
-                <button id="clear" class="normal-dark">7</button>
-                <button id="plus-minus" class="normal-dark">8</button>
-                <button id="percent" class="normal-dark">9</button>
-                <button id="divide" class="blue-btn">×</button>
+                <button data-key="7" class="normal-dark">7</button>
+                <button data-key="8" class="normal-dark">8</button>
+                <button data-key="9" class="normal-dark">9</button>
+                <button data-function="multiply" class="blue-btn">×</button>
             </div>
             <div class="row3">
-                <button id="clear" class="normal-dark">4</button>
-                <button id="plus-minus" class="normal-dark">5</button>
-                <button id="percent" class="normal-dark">6</button>
-                <button id="divide" class="blue-btn">-</button>
+                <button data-key="7" class="normal-dark">4</button>
+                <button data-key="5" class="normal-dark">5</button>
+                <button data-key="6" class="normal-dark">6</button>
+                <button data-function="minus" class="blue-btn">-</button>
             </div>
             <div class="row4">
-                <button id="clear" class="normal-dark">3</button>
-                <button id="plus-minus" class="normal-dark">2</button>
-                <button id="percent" class="normal-dark">1</button>
-                <button id="divide" class="blue-btn">+</button>
+                <button data-key="3" class="normal-dark">3</button>
+                <button data-key="2" class="normal-dark">2</button>
+                <button data-key="1" class="normal-dark">1</button>
+                <button data-function="divide" class="blue-btn">+</button>
             </div>
             <div class="row5">
-                <button id="clear" class="normal-dark">.</button>
-                <button id="plus-minus" class="normal-dark">0</button>
-                <button id="percent" class="normal-dark">⌫</button>
-                <button id="divide" class="blue-btn">=</button>
+                <button data-key="." class="normal-dark">.</button>
+                <button data-key="0" class="normal-dark">0</button>
+                <button data-function="backspace" class="normal-dark backspace">⌫</button>
+                <button data-function="equal" class="blue-btn">=</button>
             </div>
         </div>
     </main>
 </body>
-<script src="main.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/darkmode.js"></script>
 
 </html>

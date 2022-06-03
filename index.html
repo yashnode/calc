@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -22,7 +23,7 @@
     </label>
     </div>
     <main>
-        <div class="prev-val"></div>
+        <div class="prev-val">0</div>
         <div class="curr-val">0</div>
         <div class="buttons">
             <div class="row1">
@@ -38,7 +39,7 @@
                 <button data-function="multiply" class="blue-btn">×</button>
             </div>
             <div class="row3">
-                <button data-key="7" class="normal-dark">4</button>
+                <button data-key="4" class="normal-dark">4</button>
                 <button data-key="5" class="normal-dark">5</button>
                 <button data-key="6" class="normal-dark">6</button>
                 <button data-function="minus" class="blue-btn">-</button>
@@ -47,18 +48,23 @@
                 <button data-key="3" class="normal-dark">3</button>
                 <button data-key="2" class="normal-dark">2</button>
                 <button data-key="1" class="normal-dark">1</button>
-                <button data-function="divide" class="blue-btn">+</button>
+                <button data-function="add" class="blue-btn">+</button>
             </div>
             <div class="row5">
-                <button data-key="." class="normal-dark">.</button>
+                <button data-function="smile" class="normal-dark"><i class="fa-solid fa-dice"></i></button>
                 <button data-key="0" class="normal-dark">0</button>
                 <button data-function="backspace" class="normal-dark backspace">⌫</button>
                 <button data-function="equal" class="blue-btn">=</button>
             </div>
         </div>
     </main>
+    <div id="notification" class="notification">You rolled the number: </div>
+    <footer>
+        <div class="footer" id="footer">Made by
+            <a href="https://github.com/yashtalwarr">&nbsp;<i class="fa fa-github" style="font-size:22px"></i>&nbsp;Yash Talwar&nbsp;</a></div>
+    </footer>
 </body>
-<script src="https://yashtalwarr.github.io/calc/js/main.js"></script>
-<script src="https://yashtalwarr.github.io/calc/js/darkmode.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/darkmode.js"></script>
 
 </html>

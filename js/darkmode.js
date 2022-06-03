@@ -1,6 +1,7 @@
 const checkbox = document.getElementById('checkbox');
 const buttons = document.querySelectorAll("button");
 const normalBtn = document.querySelectorAll(".normal-dark");
+const footer = document.getElementById('footer')
 if (localStorage.getItem("isDarkMode")) {
     darkMode()
     checkbox.checked = true
@@ -22,4 +23,5 @@ function darkMode() {
     document.querySelector(".curr-val").classList.toggle('dark-curr-val')
     buttons.forEach((el) => el.classList.toggle('dark-buttons'));
     normalBtn.forEach((el) => el.classList.toggle('dark-btn'));
+    footer.classList.toggle('dark-footer')
 }

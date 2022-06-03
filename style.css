@@ -67,12 +67,14 @@ main {
 /* Previous values */
 
 .prev-val {
+    display: block;
     color: #757578;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
     margin-right: 15px;
+    height: 30px;
 }
 
 .curr-val {
@@ -110,6 +112,24 @@ button {
     color: white;
 }
 
+.footer {
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    width: 60%;
+    margin: 0 20%;
+    padding-bottom: 40px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 /* Dark mode */
 
@@ -131,6 +151,10 @@ button {
 
 .dark-btn {
     background-color: #2E2F38;
+}
+
+.dark-footer {
+    color: white
 }
 
 

@@ -13,7 +13,7 @@ body {
 /* Dark mode toggle button */
 
 .dark-mode-toggle {
-    margin: 20px 48%;
+    margin: 15px 48%;
 }
 
 .checkbox {
@@ -57,7 +57,7 @@ body {
 /* Main section - full calculator */
 
 main {
-    margin: 65px auto;
+    margin: 50px auto 0;
     width: 350px;
     text-align: right;
     padding: 20px;
@@ -130,6 +130,31 @@ button {
     color: inherit;
 }
 
+.noti-wrap {
+    background: url("greyBlur.jpg") center/cover;
+    width: 200px;
+    height: 50px;
+    margin: 15px auto;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 4px 5px #4B5EFC;
+    visibility: hidden;
+}
+
+.notification {
+    backdrop-filter: blur(50px);
+    height: 50px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 6px;
+    line-height: 125%;
+    padding: 2px;
+}
+
 
 /* Dark mode */
 
@@ -162,6 +187,6 @@ button {
 
 @media screen and (max-width:680px) {
     .dark-mode-toggle {
-        margin: 20px 45%;
+        margin: 15px 45%;
     }
 }

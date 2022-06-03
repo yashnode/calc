@@ -95,6 +95,10 @@ buttonClick.forEach((el) => el.addEventListener("click", () => {
         display(result)
         resultOut = true
 
+    } else if (el.getAttribute("data-function") == 'dice') {
+        let dice = getDice()
+        document.getElementById('notification').innerText = `You rolled the number: ${dice}`
+        document.querySelector('.noti-wrap').style.visibility = 'visible';
     }
 }));
 
@@ -129,6 +133,7 @@ function clear() {
     num1 = parseFloat(displayArr.join(''))
     operationCalled = false
     resultOut = false
+    document.querySelector('.noti-wrap').style.visibility = 'hidden';
 }
 const display = (num1) => { currentVal.innerText = num1 }
 
@@ -154,3 +159,5 @@ function equal(num1, num2, operation) {
             return num2 * num1 / 100
     }
 }
+
+const getDice = () => { return Math.floor(Math.random() * 6) + 1 }
